@@ -38,7 +38,7 @@
 
 ```javascript
 const developer = {
-    name: "[Nama Anda]",
+    name: "Rizani Husyairi",
     role: "Full-Stack Software Engineer",
     location: "Indonesia 🇮🇩",
     passions: ["Web Development", "AI & Automation", "Open Source Contribution"],
