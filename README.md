@@ -16,10 +16,10 @@
 
 <!-- Social Badges & Quick Stats -->
 <div align="center">
-  <a href="https://github.com/rizanihusyairi">
+  <a href="https://github.com/RizaniHusyairi">
     <img src="https://img.shields.io/github/followers/[USERNAME]?label=Followers&logo=github&style=for-the-badge&color=2ea44f&logoColor=ffffff" alt="Followers" />
   </a>
-  <a href="https://linkedin.com/in/rianihusyairi">
+  <a href="https://linkedin.com/in/RizaniHusyairi">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:rizani.hy681@gmail.com">
