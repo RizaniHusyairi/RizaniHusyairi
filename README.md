@@ -17,7 +17,7 @@
 <!-- Social Badges & Quick Stats -->
 <div align="center">
   <a href="https://github.com/RizaniHusyairi">
-    <img src="https://img.shields.io/github/followers/[USERNAME]?label=Followers&logo=github&style=for-the-badge&color=2ea44f&logoColor=ffffff" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/RizaniHusyairi?label=Followers&logo=github&style=for-the-badge&color=2ea44f&logoColor=ffffff" alt="Followers" />
   </a>
   <a href="https://linkedin.com/in/RizaniHusyairi">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -76,14 +76,14 @@ const developer = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[USERNAME]&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="stats card" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[USERNAME]&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RizaniHusyairi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="stats card" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RizaniHusyairi&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="top languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=[USERNAME]&theme=tokyonight&hide_border=true" alt="streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RizaniHusyairi&theme=tokyonight&hide_border=true" alt="streak stats" />
 </div>
 
 ---
@@ -91,7 +91,7 @@ const developer = {
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=[USERNAME]&theme=onedark&column=7&margin-w=15&margin-h=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=RizaniHusyairi&theme=onedark&column=7&margin-w=15&margin-h=15" alt="Trophies" />
 </div>
 
 ---
@@ -99,9 +99,9 @@ const developer = {
 ## 🐍 Contribution Snake Animation
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RizaniHusyairi/RizaniHusyairi/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RizaniHusyairi/RizaniHusyairi/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/RizaniHusyairi/RizaniHusyairi/output/github-contribution-grid-snake.svg">
 </picture>
 
 > *Tip: Untuk mengaktifkan animasi ular (snake animation) ini bergerak otomatis sesuai kontribusi GitHub Anda, cukup tambahkan GitHub Action workflow.*
