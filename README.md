@@ -1,4 +1,4 @@
-# Hi there, I'm [Nama Anda] 👋
+# Hi there, I'm Rizani Husyairi 👋
 
 <div align="center">
   <!-- Typing Effect Banner -->
@@ -16,16 +16,16 @@
 
 <!-- Social Badges & Quick Stats -->
 <div align="center">
-  <a href="https://github.com/[USERNAME]">
+  <a href="https://github.com/rizanihusyairi">
     <img src="https://img.shields.io/github/followers/[USERNAME]?label=Followers&logo=github&style=for-the-badge&color=2ea44f&logoColor=ffffff" alt="Followers" />
   </a>
-  <a href="https://linkedin.com/in/[USERNAME]">
+  <a href="https://linkedin.com/in/rianihusyairi">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:[EMAIL_ANDA]">
+  <a href="mailto:rizani.hy681@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://instagram.com/[USERNAME]">
+  <a href="https://instagram.com/rizani_arikk">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
