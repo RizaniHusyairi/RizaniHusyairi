@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 26" width="1000" height="26" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#38bdf8" stop-opacity=".9"/>
+      <stop offset="50%"  stop-color="#a78bfa"/>
+      <stop offset="75%"  stop-color="#f472b6" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dglow" x="-20%" y="-400%" width="140%" height="900%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .beam { animation: run 4s linear infinite; }
+      @keyframes run { 0%{ transform: translateX(-260px);} 100%{ transform: translateX(1060px);} }
+      .breathe { animation: br 3s ease-in-out infinite; }
+      @keyframes br { 0%,100%{ opacity:.45 } 50%{ opacity:1 } }
+      @media (prefers-reduced-motion: reduce){ .beam,.breathe{ animation:none } }
+    </style>
+  </defs>
+  <rect x="0" y="12" width="1000" height="2" rx="1" fill="url(#dg)" class="breathe"/>
+  <g class="beam">
+    <circle cx="130" cy="13" r="4" fill="#e0f2fe" filter="url(#dglow)"/>
+    <rect x="-120" y="12" width="250" height="2" rx="1" fill="#e0f2fe" opacity=".55"/>
+  </g>
+  <circle cx="500" cy="13" r="3" fill="#a78bfa" filter="url(#dglow)" class="breathe"/>
+</svg>

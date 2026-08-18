@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1021"/>
+      <stop offset="100%" stop-color="#111634"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity=".3"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity=".3"/>
+    </linearGradient>
+    <filter id="fglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="fclip"><rect width="1000" height="150" rx="22"/></clipPath>
+    <style>
+      .t { font-family:'Segoe UI', Ubuntu, system-ui, sans-serif; }
+      .wave  { animation: wv 9s ease-in-out infinite alternate; }
+      .wave2 { animation: wv2 12s ease-in-out infinite alternate; }
+      @keyframes wv  { from{ transform: translateX(0) } to{ transform: translateX(-60px) } }
+      @keyframes wv2 { from{ transform: translateX(-40px) } to{ transform: translateX(20px) } }
+      .beat { animation: bt 1.6s ease-in-out infinite; transform-origin:center; }
+      @keyframes bt { 0%,100%{ transform: scale(1) } 50%{ transform: scale(1.18) } }
+      .shine { animation: sh 4s ease-in-out infinite; }
+      @keyframes sh { 0%,100%{ opacity:.55 } 50%{ opacity:1 } }
+      @media (prefers-reduced-motion: reduce){ .wave,.wave2,.beat,.shine{ animation:none } }
+    </style>
+  </defs>
+  <g clip-path="url(#fclip)">
+    <rect width="1000" height="150" fill="url(#fbg)"/>
+    <path class="wave2" d="M-100 100 C 150 60, 350 140, 600 96 S 1000 60, 1150 100 L1150 150 L-100 150 Z" fill="url(#w2)"/>
+    <path class="wave"  d="M-100 116 C 180 82, 380 152, 620 112 S 1000 84, 1150 118 L1150 150 L-100 150 Z" fill="url(#w1)"/>
+    <g class="t" text-anchor="middle">
+      <text x="500" y="56" font-size="22" font-weight="700" fill="#e2e8f0" filter="url(#fglow)" class="shine">Terima kasih sudah berkunjung!</text>
+      <text x="500" y="84" font-size="14" fill="#94a3b8">Jangan lupa tinggalkan <tspan fill="#fbbf24">&#9733;</tspan> kalau kamu suka profil ini</text>
+    </g>
+    <g class="beat" transform="translate(500 118)">
+      <path d="M0 8 C -12 -4, -20 -12, -10 -18 C -4 -21, 0 -16, 0 -13 C 0 -16, 4 -21, 10 -18 C 20 -12, 12 -4, 0 8 Z" fill="#f472b6" filter="url(#fglow)"/>
+    </g>
+    <rect width="1000" height="150" rx="22" fill="none" stroke="#38bdf8" stroke-opacity=".22" stroke-width="1.5"/>
+  </g>
+</svg>
