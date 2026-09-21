@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Panda's coding corner</title>
+  <desc id="desc">A panda blinks behind a laptop while steam rises from a warm cup. Bamboo, coffee, and code.</desc>
+  <style>
+    text{font-family:'Segoe UI',Arial,sans-serif}.blink{transform-origin:240px 154px;animation:blink 5.5s infinite}.steam{animation:steam 3s ease-in-out infinite}.cursor{animation:cursor 1.4s steps(2,jump-none) infinite}.leaf{transform-origin:74px 272px;animation:sway 6s ease-in-out infinite}
+    @keyframes blink{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}@keyframes steam{0%,100%{transform:translateY(0);opacity:.35}50%{transform:translateY(-9px);opacity:.8}}@keyframes cursor{to{opacity:0}}@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}@media(prefers-reduced-motion:reduce){.blink,.steam,.cursor,.leaf{animation:none}}
+  </style>
+  <rect x="1" y="1" width="478" height="358" rx="24" fill="#f5f3e7" stroke="#d5deca"/>
+  <circle cx="243" cy="163" r="116" fill="#e2e9d6"/>
+  <text x="30" y="37" fill="#50724f" font-size="11" font-weight="700" letter-spacing="2.5">THE QUIET CODING CORNER</text>
+  <g class="leaf"><path d="M74 277V99" stroke="#739765" stroke-width="7" stroke-linecap="round"/><path d="M69 144h10m-10 57h10m-10 45h10" stroke="#adc293" stroke-width="3"/><path d="M74 145Q35 132 40 106Q70 110 74 145M74 194Q111 181 111 151Q80 159 74 194M74 237Q40 223 43 198Q72 203 74 237" fill="#84a674"/></g>
+  <ellipse cx="241" cy="224" rx="81" ry="62" fill="#203b32"/>
+  <circle cx="185" cy="106" r="27" fill="#20312c"/><circle cx="291" cy="106" r="27" fill="#20312c"/>
+  <circle cx="185" cy="106" r="13" fill="#4b594b"/><circle cx="291" cy="106" r="13" fill="#4b594b"/>
+  <ellipse cx="239" cy="153" rx="78" ry="64" fill="#fffdf4"/>
+  <ellipse cx="207" cy="151" rx="21" ry="26" fill="#20312c" transform="rotate(25 207 151)"/>
+  <ellipse cx="271" cy="151" rx="21" ry="26" fill="#20312c" transform="rotate(-25 271 151)"/>
+  <g class="blink" fill="#fffdf4"><ellipse cx="211" cy="154" rx="6" ry="8"/><ellipse cx="267" cy="154" rx="6" ry="8"/></g>
+  <g fill="#dca997" opacity=".6"><ellipse cx="188" cy="177" rx="11" ry="6"/><ellipse cx="290" cy="177" rx="11" ry="6"/></g>
+  <path d="M231 175q8-5 16 0q-2 9-8 9t-8-9" fill="#20312c"/>
+  <path d="M239 184v5m-9-1q9 10 18 0" stroke="#20312c" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M44 283H430" stroke="#adc293" stroke-width="3" stroke-linecap="round"/>
+  <rect x="133" y="205" width="214" height="74" rx="10" fill="#234c3f" stroke="#426b53" stroke-width="2"/>
+  <path d="M119 279H361L348 289H132Z" fill="#567e5d"/>
+  <path d="M222 231l-13 11 13 11m36-22 13 11-13 11m-13-25-10 30" fill="none" stroke="#d8e7bd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect class="cursor" x="282" y="251" width="9" height="3" rx="1" fill="#d8e7bd"/>
+  <path d="M372 244h30v30q-15 15-30 0Z" fill="#bbcca1"/><path d="M402 249h7q14 13-7 17" fill="none" stroke="#91aa79" stroke-width="5"/>
+  <path class="steam" d="M383 233q-8-9 0-17t0-16m12 33q-8-9 0-17" fill="none" stroke="#739765" stroke-width="2" stroke-linecap="round"/>
+  <text x="240" y="327" text-anchor="middle" font-size="14" fill="#50724f">Bamboo. Coffee. Code. Repeat.</text>
+</svg>
