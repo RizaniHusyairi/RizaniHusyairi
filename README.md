@@ -56,21 +56,13 @@ Saya **Rizani Husyairi**, Full-Stack Software Engineer dari **Indonesia**. Saya 
 ## 🌿 Bertumbuh, satu commit setiap hari
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=RizaniHusyairi&amp;show_icons=true&amp;hide_border=true&amp;title_color=b7ce9e&amp;icon_color=b7ce9e&amp;text_color=e4ebdb&amp;bg_color=163e35" alt="Statistik GitHub Rizani Husyairi" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RizaniHusyairi&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=b7ce9e&amp;text_color=e4ebdb&amp;bg_color=163e35" alt="Bahasa yang paling banyak digunakan di repositori publik" />
+  <img width="49%" src="assets/generated/stats.svg" alt="Statistik GitHub Rizani Husyairi" />
+  <img width="49%" src="assets/generated/languages.svg" alt="Bahasa utama berdasarkan jumlah repositori publik non-fork" />
   <br/><br/>
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=RizaniHusyairi&amp;bg_color=163e35&amp;color=e4ebdb&amp;line=b7ce9e&amp;point=f5f3e7&amp;area_color=739363&amp;area=true&amp;hide_border=true" alt="Grafik aktivitas kontribusi GitHub" />
+  <img width="95%" src="assets/generated/activity.svg" alt="Event publik 30 hari terakhir yang tersedia dari API GitHub, maksimal 300 event" />
 </div>
 
-<details>
-<summary>🐼 Buka catatan perjalanan: streak &amp; trophy</summary>
-<br/>
-<div align="center">
-  <img width="80%" src="https://streak-stats.demolab.com?user=RizaniHusyairi&amp;hide_border=true&amp;background=163e35&amp;stroke=739363&amp;ring=b7ce9e&amp;fire=d7bf86&amp;currStreakLabel=b7ce9e&amp;sideLabels=e4ebdb&amp;dates=b2c5a7&amp;sideNums=f5f3e7&amp;currStreakNum=f5f3e7" alt="Rangkaian hari kontribusi GitHub" />
-  <br/><br/>
-  <img width="95%" src="https://github-profile-trophy.vercel.app/?username=RizaniHusyairi&amp;theme=gruvbox&amp;no-frame=true&amp;no-bg=true&amp;column=4&amp;margin-w=12&amp;margin-h=12" alt="Koleksi trophy GitHub" />
-</div>
-</details>
+<p align="center"><sub>Diperbarui otomatis setiap hari dari GitHub API. Grafik menampilkan event publik yang tersedia, bukan jumlah commit. <a href="scripts/README.md">Tentang statistik</a></sub></p>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
